@@ -1,0 +1,69 @@
+<app-my-gomb></app-my-gomb>
+
+<p>
+        <marquee scrollamount="10" >I'm fast!</marquee><br>
+        <marquee scrollamount="20">I'm faster!</marquee><br>
+        <marquee scrollamount="40">I'm fastest!</marquee><br>
+        <marquee scrollamount="100">I'm fastestest!!!</marquee></p>
+<table>
+    <tbody>
+        <tr>
+            <td>
+                <app-reklam1 *ngIf="counter%16!=0"></app-reklam1>
+            </td>
+            <td>
+                <app-reklam7 *ngIf="counter%16!=1"></app-reklam7>
+            </td>
+            <td>
+                <app-reklam2 *ngIf="counter%16!=2"></app-reklam2>
+            </td>
+            <td>
+                <app-reklam8 *ngIf="counter%16!=3"></app-reklam8>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <app-reklam5 *ngIf="counter%16!=4"></app-reklam5>
+            </td>
+            <td>
+                <app-reklam8 *ngIf="counter%16!=5"></app-reklam8>
+            </td>
+            <td>
+                <app-reklam6 *ngIf="counter%16!=6"></app-reklam6>
+            </td>
+            <td>-
+                <app-reklam3 *ngIf="counter%16!=7"></app-reklam3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <app-reklam6 *ngIf="counter%16!=8"></app-reklam6>
+            </td>
+            <td>
+                <app-reklam4 *ngIf="counter%16!=9"></app-reklam4>
+            </td>
+            <td>
+                <app-reklam2 *ngIf="counter%16!=10"></app-reklam2>
+            </td>
+            <td>
+                <app-reklam7 *ngIf="counter%16!=11"></app-reklam7>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <app-reklam1 *ngIf="counter%16!=12"></app-reklam1>
+            </td>
+            <td>
+                <app-reklam3 *ngIf="counter%16!=13"></app-reklam3>
+            </td>
+            <td>
+                <app-reklam5 *ngIf="counter%16!=14"></app-reklam5>
+            </td>
+            <td>
+                <app-reklam4 *ngIf="counter%16!=15"></app-reklam4>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="kocka" (click)='re()' >REFRESH</div>
+

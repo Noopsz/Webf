@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+  
+  body {
+    animation: pulse .2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100%  {
+      background-color: #faa8d5;
+    }
+    33% {
+      background-color: #df49ab;
+    }
+    66% {
+      background-color: #b443af;
+    }
+  
+  }
